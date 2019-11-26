@@ -1,8 +1,5 @@
 FROM node:12-alpine
 
-ENV http_proxy 'http://inetgw.aa.com:9090'
-ENV https_proxy 'http://inetgw.aa.com:9090'
-
 WORKDIR /app
 
 COPY package.json .
